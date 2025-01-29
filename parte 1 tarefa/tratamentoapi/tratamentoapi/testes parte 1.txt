@@ -1,0 +1,11 @@
+Exemplo 1 (requisição com todos os parâmetros):
+GET http://localhost:8080/formatar?tratamento=Sr.&nome=Fernando&sobrenome=Matos
+Resposta: (Sr.; Matos, Fernando)
+
+Exemplo 2 (requisição com parâmetros opcionais):
+GET http://localhost:8080/formatar?nome=João
+Resposta: (Sr.; Desconhecido, João)
+
+Exemplo 3 (requisição com valores padrão):
+GET http://localhost:8080/formatar
+Resposta: (Sr.; Desconhecido, Usuário)

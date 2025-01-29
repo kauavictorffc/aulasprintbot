@@ -1,0 +1,44 @@
+testes parte 2 
+
+GET http://localhost:8080/api/calculadora/adicionar?a=5&b=3
+Resposta: 8.0
+
+Subtrair:
+GET http://localhost:8080/api/calculadora/subtrair?a=5&b=3
+Resposta: 2.0
+
+Multiplicar:
+GET http://localhost:8080/api/calculadora/multiplicar?a=5&b=3
+Resposta: 15.0
+
+Dividir:
+GET http://localhost:8080/api/calculadora/dividir?a=5&b=3
+Resposta: 1.6666666666666667
+
+Raiz:
+GET http://localhost:8080/api/calculadora/raiz?a=16
+Resposta: 4.0
+
+Potência:
+GET http://localhost:8080/api/calculadora/potencia?a=2&b=3
+Resposta: 8.0
+
+Inverso:
+GET http://localhost:8080/api/calculadora/inverso?a=4
+Resposta: 0.25
+
+Módulo:
+GET http://localhost:8080/api/calculadora/modulo?a=5&b=3
+Resposta: 2.0
+
+Fatorial:
+GET http://localhost:8080/api/calculadora/fatorial?n=5
+Resposta: 120.0
+
+Média:
+GET http://localhost:8080/api/calculadora/media?a=10&b=20&c=30&d=40&e=50
+Resposta: 30.0
+
+Mediana:
+GET http://localhost:8080/api/calculadora/mediana?a=10&b=20&c=30&d=40&e=50
+Resposta: 30.0

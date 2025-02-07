@@ -1,0 +1,4 @@
+http://localhost:8080/api/CNPJ/12345678000199
+http://localhost:8080/api/CNPJ/11222333000181
+http://localhost:8080/api/CNPJ/11222333000181
+http://localhost:8080/api/CPF/52998224725
